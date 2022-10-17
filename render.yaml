@@ -24,7 +24,7 @@ services:
     destination: replace_with_api_url/*
   - type: rewrite
     source: /*
-    destination: /index.html
+    destination: https://redwoodjs-api-cuc5.onrender.com/*
 
 - name: redwoodjs-api
   type: web
